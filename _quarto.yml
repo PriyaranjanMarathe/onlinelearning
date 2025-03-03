@@ -1,3 +1,25 @@
 project:
   type: website
   output-dir: docs
+
+website:
+  title: "Online Learning"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: blog.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/PriyaranjanMarathe/
+      - icon: twitter
+        href: https://twitter.com/6C1_16
+
+format:
+  html:
+    theme: lux  # Try minty, flatly, darkly, etc.
+    css: styles.css  # Custom styles (optional)
+    toc: true  # Enable table of contents

@@ -1,0 +1,13 @@
+---
+title: "About"
+format: html
+---
+
+# About This Site
+
+Welcome! This site is built using **Quarto** and hosted on **GitHub Pages**.
+
+## Why Online Learning?
+- 📚 Learn **fast & efficiently**
+- 🚀 Track your **progress**
+- 🎯 Apply knowledge in **real projects**

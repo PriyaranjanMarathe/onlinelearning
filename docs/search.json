@@ -5,5 +5,26 @@
     "title": "My First Quarto Page",
     "section": "",
     "text": "Hello, Quarto!\nThis is a test document rendered using Quarto and Python."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Latest Posts\n\nPost 1: Getting Started with Quarto\nPost 2: Publishing to GitHub Pages"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Welcome! This site is built using Quarto and hosted on GitHub Pages.\n\n\n\n📚 Learn fast & efficiently\n🚀 Track your progress\n🎯 Apply knowledge in real projects"
+  },
+  {
+    "objectID": "about.html#why-online-learning",
+    "href": "about.html#why-online-learning",
+    "title": "About",
+    "section": "",
+    "text": "📚 Learn fast & efficiently\n🚀 Track your progress\n🎯 Apply knowledge in real projects"
   }
 ]

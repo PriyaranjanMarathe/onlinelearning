@@ -1,0 +1,9 @@
+---
+title: "Blog"
+format: html
+---
+
+# Latest Posts
+
+- [Post 1: Getting Started with Quarto](post1.qmd)
+- [Post 2: Publishing to GitHub Pages](post2.qmd)
