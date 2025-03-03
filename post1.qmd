@@ -1,0 +1,8 @@
+```{python}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = pd.Series([10, 20, 15, 25, 30])
+data.plot(kind="bar", color="blue")
+plt.title("Example Bar Chart")
+plt.show()

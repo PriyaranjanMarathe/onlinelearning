@@ -3,7 +3,11 @@ title: "Blog"
 format: html
 ---
 
-# Latest Posts
+# Blog Posts
 
-- [Post 1: Getting Started with Quarto](post1.qmd)
-- [Post 2: Publishing to GitHub Pages](post2.qmd)
+📌 **Latest Posts:**
+- [🔹 Getting Started with Quarto](post1.qmd)
+- [🚀 Publishing to GitHub Pages](post2.qmd)
+
+---
+👀 **More Coming Soon...**

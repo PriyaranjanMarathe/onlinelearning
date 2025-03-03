@@ -20,6 +20,6 @@ website:
 
 format:
   html:
-    theme: lux  # Try minty, flatly, darkly, etc.
+    theme:  minty  # Try minty, flatly, darkly, etc.
     css: styles.css  # Custom styles (optional)
     toc: true  # Enable table of contents

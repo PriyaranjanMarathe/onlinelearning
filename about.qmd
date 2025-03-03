@@ -5,9 +5,11 @@ format: html
 
 # About This Site
 
-Welcome! This site is built using **Quarto** and hosted on **GitHub Pages**.
+🚀 **Welcome to Online Learning!** This is a space to explore topics, document insights, and build learning projects.
 
-## Why Online Learning?
-- 📚 Learn **fast & efficiently**
-- 🚀 Track your **progress**
-- 🎯 Apply knowledge in **real projects**
+## 🔹 Topics Covered
+- 📊 Data Science & Machine Learning
+- 🔥 Python & Automation
+- 🎨 Visualization & Storytelling
+
+💡 Built using **Quarto + GitHub Pages**!

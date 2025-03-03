@@ -1,0 +1,23 @@
+🚀 This will **render Python plots dynamically**!
+
+---
+
+## 🔹 **4. Improve Styling with `styles.css`**
+Create **`styles.css`**:
+```css
+body {
+  font-family: 'Inter', sans-serif;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #007bff;
+}
+
+.navbar {
+  background: #333;
+  color: white;
+}

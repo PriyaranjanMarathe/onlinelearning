@@ -1,5 +1,19 @@
 [
   {
+    "objectID": "post2.html",
+    "href": "post2.html",
+    "title": "Online Learning",
+    "section": "",
+    "text": "🚀 This will render Python plots dynamically!"
+  },
+  {
+    "objectID": "post2.html#improve-styling-with-styles.css",
+    "href": "post2.html#improve-styling-with-styles.css",
+    "title": "Online Learning",
+    "section": "🔹 4. Improve Styling with styles.css",
+    "text": "🔹 4. Improve Styling with styles.css\nCreate styles.css: ```css body { font-family: ‘Inter’, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }\nh1 { color: #007bff; }\n.navbar { background: #333; color: white; }"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "My First Quarto Page",
@@ -11,20 +25,27 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Latest Posts\n\nPost 1: Getting Started with Quarto\nPost 2: Publishing to GitHub Pages"
+    "text": "Blog Posts\n📌 Latest Posts: - 🔹 Getting Started with Quarto - 🚀 Publishing to GitHub Pages\n\n👀 More Coming Soon…"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Welcome! This site is built using Quarto and hosted on GitHub Pages.\n\n\n\n📚 Learn fast & efficiently\n🚀 Track your progress\n🎯 Apply knowledge in real projects"
+    "text": "🚀 Welcome to Online Learning! This is a space to explore topics, document insights, and build learning projects.\n\n\n\n📊 Data Science & Machine Learning\n🔥 Python & Automation\n🎨 Visualization & Storytelling\n\n💡 Built using Quarto + GitHub Pages!"
   },
   {
-    "objectID": "about.html#why-online-learning",
-    "href": "about.html#why-online-learning",
+    "objectID": "about.html#topics-covered",
+    "href": "about.html#topics-covered",
     "title": "About",
     "section": "",
-    "text": "📚 Learn fast & efficiently\n🚀 Track your progress\n🎯 Apply knowledge in real projects"
+    "text": "📊 Data Science & Machine Learning\n🔥 Python & Automation\n🎨 Visualization & Storytelling\n\n💡 Built using Quarto + GitHub Pages!"
+  },
+  {
+    "objectID": "post1.html",
+    "href": "post1.html",
+    "title": "Online Learning",
+    "section": "",
+    "text": "import pandas as pd import matplotlib.pyplot as plt\ndata = pd.Series([10, 20, 15, 25, 30]) data.plot(kind=“bar”, color=“blue”) plt.title(“Example Bar Chart”) plt.show()"
   }
 ]
