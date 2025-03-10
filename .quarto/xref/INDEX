@@ -16,5 +16,8 @@
   },
   "post2.qmd": {
     "post2.html": "84e2383c"
+  },
+  "notebooks/example.qmd": {
+    "example.ipynb": "7899c901"
   }
 }
