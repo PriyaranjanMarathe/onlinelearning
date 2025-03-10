@@ -44,8 +44,15 @@
   {
     "objectID": "post1.html",
     "href": "post1.html",
-    "title": "Online Learning",
+    "title": "FAISS Vector Search in Quarto",
     "section": "",
-    "text": "import pandas as pd import matplotlib.pyplot as plt\ndata = pd.Series([10, 20, 15, 25, 30]) data.plot(kind=“bar”, color=“blue”) plt.title(“Example Bar Chart”) plt.show()"
+    "text": "This document demonstrates how to use FAISS for efficient similarity search with random vectors.\nimport numpy as np import faiss"
+  },
+  {
+    "objectID": "post1.html#vector-database-with-faiss-in-python",
+    "href": "post1.html#vector-database-with-faiss-in-python",
+    "title": "FAISS Vector Search in Quarto",
+    "section": "",
+    "text": "This document demonstrates how to use FAISS for efficient similarity search with random vectors.\nimport numpy as np import faiss"
   }
 ]

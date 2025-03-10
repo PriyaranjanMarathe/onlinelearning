@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>post1 – Online Learning</title>
+<title>FAISS Vector Search in Quarto – Online Learning</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -123,19 +123,64 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#vector-database-with-faiss-in-python" id="toc-vector-database-with-faiss-in-python" class="nav-link active" data-scroll-target="#vector-database-with-faiss-in-python"><strong>Vector Database with FAISS in Python</strong></a></li>
+  <li><a href="#step-1-create-a-random-dataset-of-10000-vectors-128-dimensions" id="toc-step-1-create-a-random-dataset-of-10000-vectors-128-dimensions" class="nav-link" data-scroll-target="#step-1-create-a-random-dataset-of-10000-vectors-128-dimensions">Step 1: Create a random dataset of 10000 vectors (128 dimensions)</a></li>
+  <li><a href="#step-2-create-a-faiss-index" id="toc-step-2-create-a-faiss-index" class="nav-link" data-scroll-target="#step-2-create-a-faiss-index">Step 2: Create a FAISS index</a></li>
+  <li><a href="#step-3-query-the-index-with-a-random-vector" id="toc-step-3-query-the-index-with-a-random-vector" class="nav-link" data-scroll-target="#step-3-query-the-index-with-a-random-vector">Step 3: Query the index with a random vector</a></li>
+  <li><a href="#step-4-display-results" id="toc-step-4-display-results" class="nav-link" data-scroll-target="#step-4-display-results">Step 4: Display results</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">FAISS Vector Search in Quarto</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
 
-<p>import pandas as pd import matplotlib.pyplot as plt</p>
-<p>data = pd.Series([10, 20, 15, 25, 30]) data.plot(kind=“bar”, color=“blue”) plt.title(“Example Bar Chart”) plt.show()</p>
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<section id="vector-database-with-faiss-in-python" class="level2">
+<h2 class="anchored" data-anchor-id="vector-database-with-faiss-in-python"><strong>Vector Database with FAISS in Python</strong></h2>
+<p>This document demonstrates how to use <strong>FAISS</strong> for efficient similarity search with random vectors.</p>
+<p>import numpy as np import faiss</p>
+</section>
+<section id="step-1-create-a-random-dataset-of-10000-vectors-128-dimensions" class="level1">
+<h1>Step 1: Create a random dataset of 10000 vectors (128 dimensions)</h1>
+<p>num_vectors = 10000 dim = 128 vectors = np.random.rand(num_vectors, dim).astype(‘float32’)</p>
+</section>
+<section id="step-2-create-a-faiss-index" class="level1">
+<h1>Step 2: Create a FAISS index</h1>
+<p>index = faiss.IndexFlatL2(dim) # L2 (Euclidean) distance index.add(vectors) # Add vectors to the index</p>
+</section>
+<section id="step-3-query-the-index-with-a-random-vector" class="level1">
+<h1>Step 3: Query the index with a random vector</h1>
+<p>query_vector = np.random.rand(1, dim).astype(‘float32’) # A single query vector D, I = index.search(query_vector, k=5) # Get 5 nearest neighbors</p>
+</section>
+<section id="step-4-display-results" class="level1">
+<h1>Step 4: Display results</h1>
+<p>I, D</p>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
