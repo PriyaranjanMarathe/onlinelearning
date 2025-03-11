@@ -54,5 +54,47 @@
     "title": "FAISS Vector Search in Quarto",
     "section": "",
     "text": "This document demonstrates how to use FAISS for efficient similarity search with random vectors.\nimport numpy as np import faiss"
+  },
+  {
+    "objectID": "notebooks/plot-binder.html",
+    "href": "notebooks/plot-binder.html",
+    "title": "Quarto Notebook on Binder",
+    "section": "",
+    "text": "This notebook demonstrates how to generate and visualize a sine wave using Python.\nimport numpy as np import matplotlib.pyplot as plt"
+  },
+  {
+    "objectID": "notebooks/plot-binder.html#generating-a-plot-in-quarto-notebook",
+    "href": "notebooks/plot-binder.html#generating-a-plot-in-quarto-notebook",
+    "title": "Quarto Notebook on Binder",
+    "section": "",
+    "text": "This notebook demonstrates how to generate and visualize a sine wave using Python.\nimport numpy as np import matplotlib.pyplot as plt"
+  },
+  {
+    "objectID": "notebooks/plot-binder.html#generating-a-plot-in-quarto-notebook-1",
+    "href": "notebooks/plot-binder.html#generating-a-plot-in-quarto-notebook-1",
+    "title": "Quarto Notebook on Binder",
+    "section": "Generating a Plot in Quarto Notebook",
+    "text": "Generating a Plot in Quarto Notebook\nThis notebook demonstrates how to generate and visualize a sine wave using Python.\n```vyqerbou import numpy as np import matplotlib.pyplot as plt"
+  },
+  {
+    "objectID": "notebooks/example.html",
+    "href": "notebooks/example.html",
+    "title": "Quarto Notebook on Binder",
+    "section": "",
+    "text": "import numpy as np import matplotlib.pyplot as plt\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.figure(figsize=(8, 5)) plt.plot(x, y, label=“Sine Wave”, color=“blue”) plt.xlabel(“X-axis”) plt.ylabel(“Y-axis”) plt.title(“Sine Wave Plot”) plt.legend() plt.grid(True) plt.show()"
+  },
+  {
+    "objectID": "notebooks/example.html#generating-a-plot-in-quarto-notebook",
+    "href": "notebooks/example.html#generating-a-plot-in-quarto-notebook",
+    "title": "Quarto Notebook on Binder",
+    "section": "",
+    "text": "import numpy as np import matplotlib.pyplot as plt\nx = np.linspace(0, 10, 100) y = np.sin(x)\nplt.figure(figsize=(8, 5)) plt.plot(x, y, label=“Sine Wave”, color=“blue”) plt.xlabel(“X-axis”) plt.ylabel(“Y-axis”) plt.title(“Sine Wave Plot”) plt.legend() plt.grid(True) plt.show()"
+  },
+  {
+    "objectID": "notebooks/example.html#generating-a-plot-in-quarto-notebook-1",
+    "href": "notebooks/example.html#generating-a-plot-in-quarto-notebook-1",
+    "title": "Quarto Notebook on Binder",
+    "section": "Generating a Plot in Quarto Notebook",
+    "text": "Generating a Plot in Quarto Notebook\nThis notebook demonstrates how to generate and visualize a sine wave using Python.\n```mqoshwiu import numpy as np import matplotlib.pyplot as plt"
   }
 ]

@@ -18,6 +18,11 @@
     "post2.html": "84e2383c"
   },
   "notebooks/example.qmd": {
-    "example.ipynb": "7899c901"
+    "example.ipynb": "7899c901",
+    "example.html": "4a7c8816"
+  },
+  "notebooks/plot-binder.qmd": {
+    "plot-binder.html": "e399b348",
+    "plot-binder.ipynb": "e88f2dc4"
   }
 }
